@@ -3,7 +3,7 @@ import ReactFullpage from "@fullpage/react-fullpage";
 const FullPageHolder = () => {
 	return (
 		<ReactFullpage
-			scrollingSpeed={1000}
+			scrollingSpeed={500}
 			render={() => {
 				return (
 					<ReactFullpage.Wrapper>
