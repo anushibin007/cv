@@ -1,4 +1,5 @@
 import ReactFullpage from "@fullpage/react-fullpage";
+import Intro from "./Intro";
 
 const FullPageHolder = () => {
 	return (
@@ -7,9 +8,7 @@ const FullPageHolder = () => {
 			render={() => {
 				return (
 					<ReactFullpage.Wrapper>
-						<div className="section">
-							<p>Section 1</p>
-						</div>
+						<Intro />
 						<div className="section">
 							<p>Section 2</p>
 						</div>
