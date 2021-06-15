@@ -14,9 +14,9 @@ const Intro = () => {
 				<Row className="animate__animated animate__fadeIn">
 					<h1 className="text-center">You can call me Shibin 😀</h1>
 				</Row>
-				<Row className="animate__animated animate__fadeIn">
+				{/* <Row className="animate__animated animate__fadeIn">
 					<p className="text-center">⬇ Keep scrolling ⬇</p>
-				</Row>
+                    </Row> */}
 			</Col>
 		</div>
 	);
