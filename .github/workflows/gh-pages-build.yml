@@ -22,11 +22,13 @@ jobs:
       - name: Install
         run: npm install
 
-      - name: Build & Deploy
+      - name: Authenticate
         uses: oleksiyrudenko/gha-git-credentials@v2-latest
         with: 
           global: true
-          name: 'Anu Shibin'
+          name: 'anushibin007'
           email: 'anushibin007@gmail.com'
           token: '${{ secrets.GITHUB_TOKEN }}'
-      - run: npm run deploy
+
+      - name: Build & Deploy
+        run: npm run deploy
