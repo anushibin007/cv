@@ -16,16 +16,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: Checkout ⏬
         uses: actions/checkout@v2
 
-      - name: Install
+      - name: Install 🔧
         run: npm install
 
-      - name: Build
+      - name: Build 🔥
         run: npm run build
 
-      - name: Deploy
+      - name: Deploy 🚀
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
