@@ -24,10 +24,7 @@ jobs:
 
       - name: Authenticate
         uses: oleksiyrudenko/gha-git-credentials@v2-latest
-        with: 
-          global: true
-          name: 'anushibin007'
-          email: 'anushibin007@gmail.com'
+        with:
           token: '${{ secrets.GITHUB_TOKEN }}'
 
       - name: Build & Deploy
