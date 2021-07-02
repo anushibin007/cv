@@ -8,7 +8,7 @@ import FullPageHolder from "./components/FullPageHolder";
 
 function App() {
 	return (
-		<Container fluid>
+		<Container>
 			<FullPageHolder />
 		</Container>
 	);
